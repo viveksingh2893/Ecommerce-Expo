@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "MyExpoApp",
-    "slug": "MyExpoApp",
+    "name": "EcommerceExpo",
+    "slug": "EcommerceExpo",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -11,6 +11,7 @@
       "icon": "./assets/expo.icon"
     },
     "android": {
+      "package": "com.ecommerceexpo",
       "adaptiveIcon": {
         "backgroundColor": "#E6F4FE",
         "foregroundImage": "./assets/images/android-icon-foreground.png",
@@ -25,6 +26,10 @@
     },
     "plugins": [
       "expo-router",
+      "expo-dev-client",
+      "expo-secure-store",
+      "expo-sqlite",
+      "expo-local-authentication",
       [
         "expo-splash-screen",
         {
